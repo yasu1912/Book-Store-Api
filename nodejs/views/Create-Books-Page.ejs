@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/CSS/Create-Books-Page.css">
+    <link rel="icon" type="image/x-icon" href="/images/book.png">
+    <title>Create Book</title>
+</head>
+<body>
+    <h2 class="Book_Store_Title"><a class="bookstore" href="/" style="text-decoration:none;color: azure;"><img class="header_img"src="/images/header-book.png" alt="book img"> Book Store <img class="header_img"src="/images/header-book.png" alt="book img"></a></h2>
+    <section>
+        <div class="header">
+        <a href="/"><i class="bi bi-house-door"></i></a>
+        <h1>Welcome to Book Editor</h1>
+        </div>
+        <form action="/books/add" method="post">
+            <div>
+            <p>Book Title</p>
+            <input type="text"  name="Title">
+            </div>
+            <div>
+            <p>Book's Author</p>
+            <input type="text" name="Author">
+            </div>
+            <div>
+            <p>Book's Price <p class="description">(Do not enter money signs $£)</p></p>
+            <input type="text"  name="Price">
+            </div>
+            <div>
+            <p>Book's ISBN</p>
+            <input type="text" name="Isbn">
+            </div>
+            <div>
+            <p>Book's Language</p>
+            <input type="text"  name="Language">
+            </div>
+            <div>
+            <p>Book's Number Of Pages</p>
+            <input type="text" name="NumberOfPages">
+            </div>
+            <div>
+            <p>Book's Publisher</p>
+            <input type="text"  name="Publisher">
+            </div>
+            <div>
+            <p>Book's İmage</p>
+            <input type="text" name="Bookİmage">
+            </div>
+            <div>
+            <button type="submit">Create Book</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

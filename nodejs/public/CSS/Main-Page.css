@@ -1,0 +1,252 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    padding:0;
+    background:linear-gradient(100deg,#38a2bac6,#009ec2);
+}
+.Book_Store_Title{
+    margin:0;
+    position:relative;
+    top:0;
+    text-align:center;
+    width:100%;
+    height:4rem;
+    background:linear-gradient(to right,#00506a97,#009ec2,#026587);
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header_img{
+    width:2rem;
+    height:2rem;
+    margin:0 1rem;
+}
+nav{
+    width:100%;
+    height:3rem;
+    display:flex;
+    position: relative;
+    background:linear-gradient(to right,#026587,#009ec2,#009ec2,#026587);
+}
+.header-1{
+    right:3rem;
+    width:10rem;
+    height:100%;
+    position:absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.header-2{
+    left:2rem;
+    width:10rem;
+    height:100%;
+    position:absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+a{
+    color:rgba(240, 255, 255, 0.878);
+    text-decoration:none;
+    padding:0 1rem;
+    display:flex;
+    flex-wrap: nowrap;
+    width: 20rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+a:hover{
+    color:white;
+}
+.Public{
+    margin: auto;
+    width:20rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: end;
+}
+button{
+    background: none;
+    border:0;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    color:rgba(240, 255, 255, 0.878);
+}
+button:hover{
+    color:white;
+}
+.public-icon{
+    font-size:1.5rem;
+}
+section{
+    display:flex;
+    width:100%;
+    height:80%;
+    height:auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.Books{
+    display:flex;
+}
+.Book-Title{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:honeydew;
+    background:linear-gradient(to right,#026587,#009ec2,#026587);
+    position:absolute;
+    width:100%;
+    top: 0;
+    margin:0;
+    z-index:1;
+    height:2rem;
+    border-radius:10px 10px 0px 0px;
+    border-bottom:3px solid #00506a97;
+}
+.Bookİnfo{
+    margin: auto;
+    display: flex;
+    background:linear-gradient(to right,#026587a2,#009ec2,#026687a2);
+    max-width:50%;
+    height:auto;
+    border-radius:20px;
+    position: relative;
+    margin:2rem 6rem;
+    min-width:300px;
+    text-align: center;
+    min-height: 35rem;
+    box-shadow: 0px 2px 50px 1px rgba(0,0,0,0.2);
+    justify-content:safe;
+    
+
+}
+.Book-info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:2rem;
+    position:relative;
+    margin:1.6rem;
+    margin-right:0;
+    padding:0.5rem;
+    font-size:1.1rem;
+    color:lavenderblush;
+    text-align: left;
+}
+.Book-image img{
+    top:0.8rem;
+    width:25rem;
+    height:98%;
+    position:relative;
+    background-position:center;
+    display:block;
+    border-radius:0 0 0 10px;
+}
+.Book-İnformation{
+    display: block;
+    width:30rem;
+}
+strong{
+    color:white;
+    font-size:large;
+    background-color:#026587;
+    border-radius:5px;
+    padding:0.2rem;
+}
+i{
+    font-size:1rem;
+    position: relative;
+    top:1px;
+    padding-right:3px;
+}
+p{
+    line-height:2rem;
+}
+.Book-Creator-İnfo{
+    position: relative;
+    bottom:0;
+    padding:0;
+    margin:4rem 0;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Authors{
+    display:none;
+    width:100%;
+    height:80%;
+    height:auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:left;
+
+}
+.Author-Title{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:honeydew;
+    background:linear-gradient(to right,#026587,#009ec2,#026587);
+    position:absolute;
+    width:100%;
+    top: 0;
+    margin:0;
+    z-index:1;
+    height:2rem;
+    border-radius:10px 10px 0px 0px;
+}
+.Authorİnfo{
+    margin: auto;
+    display: block;
+    background:linear-gradient(to right,#026587a2,#009ec2,#026687a2);
+    max-width:20%;
+    height:auto;
+    border-radius:20px;
+    position: relative;
+    margin:2rem 6rem;
+    min-width:300px;
+    text-align: center;
+    min-height: 35rem;
+    box-shadow: 0px 2px 50px 1px rgba(0,0,0,0.2);
+    
+
+}
+.Author-image img{
+    width:100%;
+    height:400px;
+    top:1.5rem;
+    position:relative;
+    background-position:center;
+}
+.Author-info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:1.6rem;
+    margin-bottom:-0.2rem;
+    padding:0.5rem;
+    font-size:1.1rem;
+    color:lavenderblush;
+}
+.Author-Creator-İnfo{
+    position:absolute;
+    bottom:0;
+    padding-bottom:0.5rem;
+    left:1rem;
+    margin:0;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Author-info.two{
+    margin-top:-1.3rem;
+    margin-bottom:4rem;
+}
+.Creator-Name{
+    color:white;
+    font-family:cursive;
+    font-weight: 50;
+    font-style: italic;
+    text-align: center;
+    padding:0.5rem;
+}

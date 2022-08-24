@@ -1,0 +1,181 @@
+body{
+    background:linear-gradient(100deg,#38a2bac6,#009ec2);
+    margin:0;
+}
+h4{
+    margin:0;
+    position:relative;
+    top:0;
+    text-align:center;
+    width:100%;
+    height:4rem;
+    background:linear-gradient(to right,#00506a97,#009ec2,#026587);
+    color:azure;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    left:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+.header_img{
+    width:2rem;
+    height:2rem;
+    margin:0 1rem;
+    top:0;
+}
+h1{
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color:azure;
+    background:linear-gradient(to right,#00506a97,#009ec2,#026587);
+    height:auto;
+    padding-top:1rem;
+    width:40%;
+    margin:0 380px;
+    border-radius:10px;
+    border:2px black solid;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.541);
+}
+h2{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:honeydew;
+    background:linear-gradient(to right,#026587,#009ec2,#026587);
+    position:absolute;
+    width:100%;
+    top: 0;
+    margin:0;
+    z-index:1;
+    height:2rem;
+    border-radius:10px 10px 0px 0px;
+    border-bottom:3px solid #00506a97;
+}
+h3{
+    text-align:center;
+    background:linear-gradient(to right,#00506a97,#009ec2,#026587);
+    width:100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:honeydew;
+    z-index:1;
+    top: 0;
+    height:2rem;
+    padding:2rem 0;
+    position:relative;
+    font-size: 2rem;
+}
+section{
+    display:flex;
+    width:100%;
+    height:80%;
+    height:auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.Bookİnfo{
+    margin: auto;
+    display: flex;
+    background:linear-gradient(to right,#026587a2,#009ec2,#026687a2);
+    max-width:50%;
+    height:auto;
+    border-radius:20px;
+    position: relative;
+    margin:2rem 6rem;
+    min-width:300px;
+    text-align: center;
+    min-height: 35rem;
+    box-shadow: 0px 2px 50px 1px rgba(0,0,0,0.2);
+    justify-content:safe;
+    
+
+}
+.creator{
+    background-color:darkred;
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+    padding: 0.5rem;
+    position: relative;
+    border-radius:10px;
+    box-shadow: 0 0 5px 2px rgb(0, 0, 0);
+}
+.info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:2rem;
+    position:relative;
+    margin:1.6rem;
+    margin-right:0;
+    padding:0.5rem;
+    font-size:1.1rem;
+    color:lavenderblush;
+    text-align: left;
+}
+img{
+    top:0.8rem;
+    width:100%;
+    height:98%;
+    position:relative;
+    background-position:center;
+    display:block;
+    border-radius:0 0 0 10px;
+}
+.Book-İnformation{
+    display: block;
+    width:30rem;
+}
+strong{
+    color:white;
+    font-size:large;
+    background-color:#026587;
+    border-radius:5px;
+    padding:0.2rem;
+}
+i{
+    font-size:1.3rem;
+}
+p{
+    line-height:2rem;
+}
+.creatorinfo{
+    position: relative;
+    bottom:0;
+    padding:0;
+    margin:4rem 0;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bi-x-circle-fill{
+    float:right;
+    right:0.3rem;
+    top:0.2rem;
+    position: relative;
+}
+.header{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+}
+.bi.bi-plus-circle{
+    font-size:2rem;
+    color: azure;
+}
+.bi.bi-house-door{
+    font-size:2rem;
+    color: azure;
+    position: relative;
+}
+a .add,a.home{
+    display:flex;
+    position: relative;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    width:10%;
+    align-items: center;
+    justify-content: space-evenly;
+}

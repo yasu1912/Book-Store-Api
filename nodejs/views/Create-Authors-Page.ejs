@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/CSS/Create-Authors-Page.css">
+    <link rel="icon" type="image/x-icon" href="/images/book.png">
+    <title>Create Author</title>
+</head>
+<body>
+    <h2 class="Book_Store_Title"><a class="bookstore" href="/" style="text-decoration:none;color: azure;"><img class="header_img"src="/images/header-book.png" alt="book img"> Book Store <img class="header_img"src="/images/header-book.png" alt="book img"></a></h2>
+    <section>
+        <div class="header">
+        <a href="/"><i class="bi bi-house-door"></i></a>
+        <h1>Welcome to Authors Editor</h1>
+        </div>
+        <form action="/authors/add" method="post">
+            <div>
+            <p>Author's Name</p>
+            <input type="text" name="NameOfAuthor">
+            </div>
+            <div>
+            <p>Author's Country</p>
+            <input type="text"  name="CountryOfAuthor">
+            </div>
+            <div>
+            <p>Author's Birthdate<p class="description">(Please enter date like this (dd/mm/yy))</p></p>
+            <input type="datetime" name="BirthDateOfAuthor">
+            </div>
+            <div>
+            <div>
+            <p>Author's İmage</p>
+            <input type="text"  name="Authorİmage">
+            </div>
+            <div>                
+            <button type="submit">Create Author</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
